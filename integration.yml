@@ -2,7 +2,7 @@ name: Express JS
 slug: node-express
 spec_version: 1.0.0
 
-documentation: node-express/Readme.md
+documentation: Readme.md
 
 # Switch to 'production' when tests pass
 status: development
