@@ -1,0 +1,16 @@
+name: Express JS
+slug: node-express
+spec_version: 1.0.0
+
+documentation: node-express/Readme.md
+
+# Switch to 'production' when tests pass
+status: development
+
+# Command to publish the documenting library
+publish:
+  - npm publish library
+
+# copy middleware to test subject to make debugging easier
+before_tests:
+  - cp library/index.js test_subject/middleware.js
