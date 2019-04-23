@@ -4,5 +4,5 @@ node_js:
 services:
   - docker
 script:
-  - npm install @useoptic/runtime-api-ingestion-sdk@1.0.2 -g
+  - npm install @useoptic/runtime-api-ingestion-sdk@1.0.3 -g
   - optic-api-ingestion testAll
